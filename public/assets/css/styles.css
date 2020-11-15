@@ -2517,6 +2517,9 @@ body {
       line-height: 27px;
       margin-left: 6px; }
 
+      .fa.red-color{
+        color: red;
+      }
 /*
 =================
 BLOG Pagination
