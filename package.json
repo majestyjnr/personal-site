@@ -1,0 +1,15 @@
+{
+  "name": "developer-majesty",
+  "version": "1.0.0",
+  "description": "My official website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Majesty",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
