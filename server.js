@@ -13,6 +13,9 @@ app.get('/', function(req, res){
     res.render('./index')
 })
 
+app.use(function(req, res, next){
+  res.status(404).render('./404')
+})
 // Launch the server
 const PORT = process.env.PORT || 7000;
 app.listen(PORT, function () {
